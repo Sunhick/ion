@@ -30,3 +30,7 @@
 (define-derived-mode ion-mode fundamental-mode "ion"
   "Major mode for editing amazon ion files."
   (setq font-lock-defaults '(ion-highlights)))
+
+(provide 'ion-mode)
+
+;;; ion-mode.el ends here
